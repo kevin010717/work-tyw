@@ -1,4 +1,4 @@
-export ISAAC_ROS_WS=~/ISAAC_ROS_WS 
+echo "export ISAAC_ROS_WS=~/ISAAC_ROS_WS" > ~/.zshrc
 cd ${ISAAC_ROS_WS}/src && \
    git clone -b release-3.2 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_common.git isaac_ros_common
 sudo apt-get install -y curl jq tar
