@@ -168,4 +168,55 @@ export PYTHONPATH=$PYTHONPATH:$PWD/third_party/libero
 python -m libero
 python examples/libero/main.py
 
+# lerobot-kinematics
+conda create -n joycon-leisaac python=3.10
+conda activate joycon-leisaac
+git clone https://github.com/box2ai-robotics/lerobot-kinematics.git
+cd lerobot-kinematics
+pip install -e .
+pip install jinja2 typeguard docutils
+
+# joycon-robotics
+git clone https://github.com/box2ai-robotics/joycon-robotics.git
+cd joycon-robotics
+pip install -e .
+sudo apt-get update
+sudo apt-get install -y dkms libevdev-dev libudev-dev cmake
+make install
+
+# leisaac
+# isaacsim
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu118
+pip install --upgrade pip
+pip install 'isaacsim[all,extscache]==4.5.0' --extra-index-url https://pypi.nvidia.com
+# isaaclab
+git clone https://github.com/isaac-sim/IsaacLab.git
+sudo apt install cmake build-essential
+cd IsaacLab
+git checkout v2.1.1
+./isaaclab.sh --install
+# ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+# lerobot-kinematics 0.0.1 requires numpy==1.24.4, but you have numpy 1.26.4 which is incompatible.
+# leisaac
+git clone https://github.com/LightwheelAI/leisaac.git
+cd leisaac
+pip install -e source/leisaac
+python leisaac/scripts/environments/teleoperation/teleop_se3_agent.py \
+    --task=LeIsaac-SO101-PickOrange-v0 \
+    --teleop_device=keyboard \
+    --port=/dev/ttyACM0 \
+    --num_envs=1 \
+    --device=cuda \
+    --enable_cameras \
+    --record \
+    --dataset_file=./datasets/dataset.hdf5
+
+# lerobot-mujoco-tutorial
+conda install jupyter ipykernel
+gh repo clone jeongeun980906/lerobot-mujoco-tutorial
+cd lerobot-mujoco-tutorial
+pip install -r requirements.txt
+cd asset/objaverse
+unzip plate_11.zip
 
