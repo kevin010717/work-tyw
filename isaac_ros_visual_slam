@@ -82,22 +82,20 @@ sudo apt-get install -y nvidia-container-toolkit
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
 docker run --rm --gpus all nvcr.io/nvidia/isaac/ros:x86_64-ros2_humble_6f2a6bddf70fcd928f08e874635efe43 nvidia-smi
-
-# rosdep
-sudo mkdir -p /etc/ros/rosdep/sources.list.d
-sudo tee /etc/ros/rosdep/sources.list.d/20-default.list <<EOF
-yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/osx-homebrew.yaml osx
-yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/base.yaml
-yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/python.yaml
-yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/ruby.yaml
-gbpdistro https://mirrors.tuna.tsinghua.edu.cn/rosdistro/releases/fuerte.yaml fuerte
-EOF
-rosdep update
-
-
-
-
 cd ${ISAAC_ROS_WS}/src && \
    git clone -b release-3.2 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam.git isaac_ros_visual_slam
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
 ./scripts/run_dev.sh
+
+# rosdep
+export ROSDISTRO_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml
+echo 'export ROSDISTRO_INDEX_URL=https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml' >> ~/.bashrc
+sudo mkdir -p /etc/ros/rosdep/sources.list.d
+sudo tee /etc/ros/rosdep/sources.list.d/20-default.list >/dev/null <<'EOF'
+yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/osx-homebrew.yaml osx
+yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/base.yaml
+yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/python.yaml
+yaml https://mirrors.tuna.tsinghua.edu.cn/rosdistro/rosdep/ruby.yaml
+EOF
+sudo apt-get update
+rosdep update && rosdep install --from-paths ${ISAAC_ROS_WS}/src/isaac_ros_visual_slam/isaac_ros_visual_slam --ignore-src -y
