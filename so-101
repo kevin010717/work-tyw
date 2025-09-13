@@ -1,0 +1,83 @@
+# todo
+1.数采，分批
+2.act训推
+3.pi0训推
+4.Gr00t N1.5训推
+
+主臂端口：/dev/ttyACM0
+从臂端口：/dev/ttyACM1
+/dev/video2
+pip install -e ".[feetech]"
+sudo chmod 666 /dev/ttyACM*
+
+python -m lerobot.calibrate \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM1 \
+    --robot.id=my_awesome_follower_arm
+
+python -m lerobot.calibrate \
+    --teleop.type=so101_leader \
+    --teleop.port=/dev/ttyACM0 \
+    --teleop.id=my_awesome_leader_arm
+
+python -m lerobot.teleoperate \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM1 \
+    --robot.id=my_awesome_follower_arm \
+    --robot.cameras='{"front":{"type":"opencv","index_or_path":2,"width":640,"height":480,"fps":30}}' \
+    --teleop.type=so101_leader \
+    --teleop.port=/dev/ttyACM0 \
+    --teleop.id=my_awesome_leader_arm \
+    --display_data=true
+
+python -m lerobot.record \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM1 \
+    --robot.id=my_awesome_follower_arm \
+    --robot.cameras="{ front: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}}" \
+    --teleop.type=so101_leader \
+    --teleop.port=/dev/ttyACM0 \
+    --teleop.id=my_awesome_leader_arm \
+    --display_data=true \
+    --dataset.repo_id=seeedstudio123/test \
+    --dataset.num_episodes=2 \
+    --dataset.single_task="Grab the black cube" \
+    --dataset.push_to_hub=false \
+    --dataset.episode_time_s=10 \
+    --dataset.reset_time_s=10
+
+python -m lerobot.scripts.visualize_dataset_html   --repo-id seeedstudio123/test 
+
+python -m lerobot.replay \
+    --robot.type=so101_follower \
+    --robot.port=/dev/ttyACM1 \
+    --robot.id=my_awesome_follower_arm \
+    --dataset.repo_id=seeedstudio123/test \
+    --dataset.episode=0
+
+
+python -m lerobot.scripts.train \
+  --dataset.repo_id=seeedstudio123/test \
+  --policy.type=act \
+  --output_dir=outputs/train/act_so101_test \
+  --job_name=act_so101_test \
+  --policy.device=cuda \
+  --wandb.enable=false \
+  --policy.push_to_hub=false\
+  --steps=300000 
+
+huggingface-cli login --token hf_XXX --add-to-git-credential
+
+HF_USER=$(huggingface-cli whoami | head -n 1)
+echo $HF_USER
+
+    --repo-id ${HF_USER}/so100_test \
+    --warmup-time-s 5 \
+    --force-override 1 \
+    --resume 0 \
+    --robot-path lerobot/configs/robot/so100.yaml \
+    --local-files-only 1 \
+    --root data \
+
+python lerobot/scripts/visualize_dataset_html.py \
+  --repo-id ${HF_USER}/so100_test
