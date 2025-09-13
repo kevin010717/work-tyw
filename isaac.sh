@@ -65,9 +65,9 @@ ros-humble-ros2-controllers
 ros-humble-ros-base 
 ros-humble-rmw-fastrtps-cpp 
 ros-humble-rmw-cyclonedds-cpp
-export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
-export LD_LIBRARY_PATH=/opt/ros/humble/lib:$LD_LIBRARY_PATH
-export ROS_DOMAIN_ID=0
+echo "export RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+echo "export LD_LIBRARY_PATH=/opt/ros/humble/lib:\$LD_LIBRARY_PATH"
+echo "export ROS_DOMAIN_ID=0"
 pip install catkin_pkg pandas pyarrow
 
 # lerobot
