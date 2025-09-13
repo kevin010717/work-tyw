@@ -69,6 +69,22 @@ sudo apt-get install -y git-lfs
 git lfs install
 git lfs version
 
+# nvidia GPU + Docker + nvidia runtime
+# 添加软件源和 key
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey \
+ | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list \
+ | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#' \
+ | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+# 安装
+sudo apt-get update
+sudo apt-get install -y nvidia-container-toolkit
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+docker run --rm --gpus all nvcr.io/nvidia/isaac/ros:x86_64-ros2_humble_6f2a6bddf70fcd928f08e874635efe43 nvidia-smi
+
+
+
 cd ${ISAAC_ROS_WS}/src && \
    git clone -b release-3.2 https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam.git isaac_ros_visual_slam
 cd ${ISAAC_ROS_WS}/src/isaac_ros_common && \
