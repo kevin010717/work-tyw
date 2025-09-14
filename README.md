@@ -1,6 +1,7 @@
 todo：
 1.isaac asserts上传115
 2.备份vscode插件
+3.cursor
 
 # 导航
 
