@@ -100,4 +100,6 @@ EOF
 sudo apt-get update
 rosdep update && rosdep install --from-paths ${ISAAC_ROS_WS}/src/isaac_ros_visual_slam/isaac_ros_visual_slam --ignore-src -y
 
-
+cd ${ISAAC_ROS_WS}/ && \
+   colcon build --symlink-install --packages-up-to isaac_ros_visual_slam --base-paths ${ISAAC_ROS_WS}/src/isaac_ros_visual_slam/isaac_ros_visual_slam
+source install/setup.bash
