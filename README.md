@@ -26,17 +26,18 @@ todo：
 |              | [论文CVPR2025](https://www.bilibili.com/video/BV1xHXsYnE68?spm_id_from=333.788.player.player_end_recommend_autoplay&vd_source=d91bffd2a7a6acff9ff536f2f1332429) |                                    |
 |              |                                                              |                                    |
 
-| isaac |                                                              |      |
-| ----- | ------------------------------------------------------------ | ---- |
-| 仿真  | [fishros-Nvidia-ROS2-Projects](https://fishros.org/doc/ros2/humble/Related-Projects/Nvidia-ROS2-Projects.html)  [NVIDIA Isaac ROS](https://github.com/NVIDIA-ISAAC-ROS) |      |
-| 资产  | [isaac-assets](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_faq.html) |      |
-|       | https://github.com/Tavish9/any4lerobot                       |      |
+| isaac                                                        |                                                              |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [isaac-assets](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_faq.html) | [fishros-Nvidia-ROS2-Projects](https://fishros.org/doc/ros2/humble/Related-Projects/Nvidia-ROS2-Projects.html)  [NVIDIA Isaac ROS](https://github.com/NVIDIA-ISAAC-ROS) |      |
+| [Visual SLAM with Isaac Sim](https://nvidia-isaac-ros.github.io/concepts/visual_slam/cuvslam/tutorial_isaac_sim.html) | [Isaac_ROS_VSLAM-bianbu](https://bianbu.spacemit.com/brdk/Robot_development/6.6_Robot_Simulation_Development/6.6.1_Isaac_ROS_VSLAM) |      |
 
 | lerobot                                                      |      |      |
 | ------------------------------------------------------------ | ---- | ---- |
 | [any4lerobot](https://github.com/Tavish9/any4lerobot)        |      |      |
 | [lerobot机械臂中文资料](https://docs.qq.com/sheet/DQnFNc0pVdUV2bEpZ?tab=BB08J2) |      |      |
 |                                                              |      |      |
+
+
 
 | CR5AF                                                        |                                                       |      |
 | ------------------------------------------------------------ | ----------------------------------------------------- | ---- |
