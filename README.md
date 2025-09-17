@@ -1,8 +1,9 @@
-todo：
-1. isaac asserts上传115
-2. 备份vscode插件
-3. cursor
-4. codex
+# 今日待办
+- [ ] isaac asserts上传115
+- [ ] 备份vscode插件
+- [ ] cursor
+- [ ] codex openai
+
 ---
 # 导航
 
