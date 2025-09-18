@@ -3,6 +3,7 @@
 - [ ] 备份vscode插件
 - [ ] cursor
 - [ ] codex openai
+- [ ] wsl安装
 
 ---
 # 导航
