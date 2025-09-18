@@ -15,7 +15,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # 桌面环境
 vi /etc/wsl.conf # 确认 systemd=true
-sudo apt install ubuntu-desktop xwayland
+sudo apt install ubuntu-desktop xwayland -y
 
 sudo systemctl edit --full --force wslg-fix.service
 # 粘贴
