@@ -34,4 +34,7 @@ WantedBy=multi-user.target
 sudo systemctl enable wslg-fix.service
 
 sudo systemctl edit user-runtime-dir@.service
+# 粘贴
+[Service]
+ExecStartPost=-/usr/bin/rm -f /run/user/%i/wayland-0 /run/user/%i/wayland-0.lock
 sudo systemctl set-default multi-user.target
