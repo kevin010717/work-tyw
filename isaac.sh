@@ -29,8 +29,8 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 conda create -n isaacsim450 python=3.10
 conda activate isaacsim450
 pip install "isaacsim[all,extscache]==4.5.0" --extra-index-url https://pypi.nvidia.com
-pip install "isaacsim[all]==4.5.0" --extra-index-url https://pypi.nvidia.com
-pip install "isaacsim[extscache]==4.5.0" --extra-index-url https://pypi.nvidia.com
+# pip install "isaacsim[all]==4.5.0" --extra-index-url https://pypi.nvidia.com
+# pip install "isaacsim[extscache]==4.5.0" --extra-index-url https://pypi.nvidia.com
 
 # isaacsim500
 # 重新打开一个终端
