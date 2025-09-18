@@ -8,8 +8,7 @@ wsl --shutdown
 
 # ubuntu-22.04
 df -h / # 查看磁盘大小
-sudo apt update  
-sudo apt upgrade
+sudo apt update  && sudo apt upgrade 
 sudo apt install zsh htop nvtop -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
