@@ -2,7 +2,7 @@ wsl --install
 wsl --update
 wsl -v -l
 wsl --list --online
-wsl --install Ubuntu-22.04
+wsl --install Ubuntu-24.04
 wsl -d Ubuntu-24.04
 wsl --shutdown
 
