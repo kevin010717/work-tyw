@@ -10,7 +10,7 @@ wsl --shutdown
 df -h / # 查看磁盘大小
 sudo apt update  
 sudo apt upgrade
-sudo apt install zsh
+sudo apt install zsh htop nvtop
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # 桌面环境
