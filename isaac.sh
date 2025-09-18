@@ -26,15 +26,15 @@ chmod +x Miniconda3-latest-Linux-x86_64.sh
 
 # isaacsim450
 # 重新打开一个终端
-conda create -n env_isaacsim450 python=3.10
-conda activate env_isaacsim
+conda create -n isaacsim450 python=3.10
+conda activate isaacsim450
 pip install "isaacsim[all]==4.5.0" --extra-index-url https://pypi.nvidia.com
 pip install "isaacsim[extscache]==4.5.0" --extra-index-url https://pypi.nvidia.com
 
 # isaacsim500
 # 重新打开一个终端
-conda create -n env_isaacsim500 python=3.11
-conda activate env_isaacsim500
+conda create -n isaacsim500 python=3.11
+conda activate isaacsim500
 pip install --upgrade pip
 pip install pyyaml typeguard
 pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
