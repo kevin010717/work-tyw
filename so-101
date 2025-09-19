@@ -7,6 +7,7 @@
 主臂端口：/dev/ttyACM0
 从臂端口：/dev/ttyACM1
 curl -fsSL https://raw.githubusercontent.com/phospho-app/phosphobot/main/install.sh | sudo bash  # phosphobot
+phosphobot run
 /dev/video2
 pip install -e ".[feetech]"
 sudo chmod 666 /dev/ttyACM*
