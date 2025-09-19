@@ -3,6 +3,7 @@
 - [ ] isaac asserts上传115
 - [ ] 备份vscode插件
 - [ ] codex openai
+- [ ] ppt增加遥操作图示
 - [x] cursor
 - [x] wsl安装 效果不好
 
