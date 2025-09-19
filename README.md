@@ -1,9 +1,9 @@
 # 今日待办
 - [ ] isaac asserts上传115
 - [ ] 备份vscode插件
-- [ ] cursor
 - [ ] codex openai
-- [ ] wsl安装
+- [x] cursor
+- [x] wsl安装 效果不好
 
 ---
 # 导航
