@@ -4,6 +4,7 @@
 - [ ] 备份vscode插件
 - [ ] codex openai
 - [ ] ppt增加遥操作图示
+- [ ] 夹爪角度归一化
 - [x] cursor
 - [x] wsl安装 效果不好
 
