@@ -1,4 +1,5 @@
 # 今日待办
+
 - [ ] isaac asserts上传115
 - [ ] 备份vscode插件
 - [ ] codex openai
@@ -6,6 +7,7 @@
 - [x] wsl安装 效果不好
 
 ---
+
 # 导航
 
 | 常用         | 链接                                                         |                                    |
@@ -14,6 +16,7 @@
 | 魔搭社区     | [魔搭社区](https://modelscope.cn/my/overview)                |                                    |
 | CodeWithGPU  | [CodeWithGPU](https://www.codewithgpu.com/image)             |                                    |
 | AutoDL       | [AutoDL](https://www.autodl.com/machine/list)                |                                    |
+| gpufree      | [gpufree](https://www.gpufree.cn/images)                     |                                    |
 | Zread        | [Zread](https://zread.ai/)                                   |                                    |
 | lmarena      | [lmarena](https://lmarena.ai/leaderboard)                    |                                    |
 | 论文翻译     | [论文翻译](https://www.julyedu.com/#exercise-container)      |                                    |
@@ -40,7 +43,10 @@
 | [lerobot机械臂中文资料](https://docs.qq.com/sheet/DQnFNc0pVdUV2bEpZ?tab=BB08J2) |      |      |
 |                                                              |      |      |
 
-
+| data-scaling                                                 |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [urdformer](https://github.com/WEIRDLabUW/urdformer)         | [UniGraspTransformer](https://github.com/microsoft/UniGraspTransformer?tab=readme-ov-file) | [nerf](https://github.com/bmild/nerf)                        |
+| [gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting?tab=readme-ov-file) | [nvidia-cosmos](https://github.com/nvidia-cosmos/cosmos-reason1) | [robomind](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) |
 
 | CR5AF                                                        |                                                       |      |
 | ------------------------------------------------------------ | ----------------------------------------------------- | ---- |
@@ -112,7 +118,7 @@
 |          | [SO-ARM100](https://blog.csdn.net/Only_Wolfy/article/details/148438626) |      |
 |          | [WowRobo](https://wiki.wowrobo.com/zh/home)                  |      |
 | 手柄控制 | [手柄遥控方案](https://www.bilibili.com/video/BV1xRc6eHEvL?spm_id_from=333.788.videopod.sections&vd_source=d91bffd2a7a6acff9ff536f2f1332429)   [joycon-robotics](https://github.com/box2ai-robotics/joycon-robotics) |      |
-| 网页控制 | [BamBot](https://bambot.org/)                                |      |
+| 网页控制 | [BamBot](https://bambot.org/)  [phospho-app](https://github.com/phospho-app/phosphobot) |      |
 | 仿真     | [isaac_so_arm101](https://github.com/MuammerBay/isaac_so_arm101)    [leisaac](https://github.com/LightwheelAI/leisaac) |      |
 | 训练     | [groot n1.5](https://zhuanlan.zhihu.com/p/1938339457687356969) |      |
 | 工具     | [ROS 2 Package for LeRobot SO-ARM101](https://github.com/Pavankv92/lerobot_ws)  [EasyBot](https://github.com/thepok/EasyBot) |      |
