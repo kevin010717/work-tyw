@@ -67,7 +67,9 @@ ros-humble-ros2-control
 ros-humble-ros2-controllers
 ros-humble-ros-base 
 ros-humble-rmw-fastrtps-cpp 
-ros-humble-rmw-cyclonedds-cpp
+# ros-humble-rmw-cyclonedds-cpp
+conda activate env_isaacsim450
+conda install -c conda-forge 'libstdcxx-ng>=13.2.0' 'libgcc-ng>=13.2.0'
 echo 'export RMW_IMPLEMENTATION=rmw_fastrtps_cpp' >> ~/.zshrc
 echo 'export LD_LIBRARY_PATH=/opt/ros/humble/lib:$LD_LIBRARY_PATH' >> ~/.zshrc
 echo 'export ROS_DOMAIN_ID=0' >> ~/.zshrc
