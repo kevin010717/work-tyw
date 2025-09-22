@@ -53,6 +53,8 @@ cd IsaacLab
 
 # ros2 hummble
 source <(wget -qO- http://fishros.com/install)
+sudo apt install ros-humble-rviz2
+sudo apt install ros-humble-desktop
 source /opt/ros/humble/setup.zsh 
 
 # ros2 bridge
