@@ -32,4 +32,8 @@ node -v
 npm -v
 sudo npm install -g @anthropic-ai/claude-code
 claude --version
+
+# claude-code-router
 sudo npm install -g @musistudio/claude-code-router
+mkdir -p ~/.claude-code-router && touch ~/.claude-code-router/config.json
+code ~/.claude-code-router/config.json 
