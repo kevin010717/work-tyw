@@ -37,3 +37,26 @@ claude --version
 sudo npm install -g @musistudio/claude-code-router
 mkdir -p ~/.claude-code-router && touch ~/.claude-code-router/config.json
 code ~/.claude-code-router/config.json 
+
+claude /logout
+
+export ANTHROPIC_AUTH_TOKEN="sk-b4YbhY0MrjpNKDOkH56Gm0bJsULYtmHzlqgFXFV73gQboKHe"
+export ANTHROPIC_BASE_URL="https://feiai.chat"
+claude
+
+export ANTHROPIC_AUTH_TOKEN="sk-gHlMop0fxXhZL1KD8v16QLbP6eGytZS1K9XR3ijODiXI4sJH"
+export ANTHROPIC_BASE_URL="https://aizex.top"
+claude
+
+code ~/.codex/auth.json  #添加sk
+vi ~/.codex/config.toml  #添加base_url
+model_provider = "api111"
+model = "gpt-5-codex"
+model_reasoning_effort = "high"
+disable_response_storage = true
+preferred_auth_method = "apikey"
+
+[model_providers.api111]
+name = "api111"
+base_url = "https://feiai.chat/v1"
+wire_api = "responses"
