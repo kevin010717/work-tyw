@@ -7,3 +7,4 @@ choco search wechat
 choco install chocolateygui -y
 choco install vlc -y
 choco unintall vlc -y
+choco install miniconda3 -y
