@@ -26,9 +26,10 @@ sudo apt remove nodejs -y
 sudo apt remove --purge libnode-dev
 sudo apt autoremove
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 sudo apt install -y nodejs
 node -v
 npm -v
 sudo npm install -g @anthropic-ai/claude-code
 claude --version
-npm install -g @musistudio/claude-code-router
+sudo npm install -g @musistudio/claude-code-router
