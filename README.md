@@ -5,8 +5,9 @@
 - [ ] codex openai
 - [ ] ppt增加遥操作图示
 - [ ] 夹爪角度归一化
+- [ ] 笔记本安装windows，hyper-v，wsl，isaac
 - [x] cursor
-- [x] wsl安装 效果不好
+- [x] wsl安装 egpu效果不好
 
 ---
 
