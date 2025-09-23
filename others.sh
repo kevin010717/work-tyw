@@ -14,4 +14,9 @@ sudo swapon /swapfile
 swapon --show
 free -h
 
-# 
+# 百度网盘
+pip install bypy
+bypy info
+
+# google driver
+pip install gdown
