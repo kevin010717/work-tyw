@@ -141,3 +141,10 @@
 | [DRL-Learning](https://github.com/yusongmin1/DRL-Learning)   | [flappy-bird-gym](https://github.com/Talendar/flappy-bird-gym) |      |
 | [skpacman-gym](https://github.com/CN-Shopkeeper/skpacman-gym) | [ASAP](https://github.com/LeCAR-Lab/ASAP)                    |      |
 | [asap_mujoco_sim](https://github.com/feidedao/asap_mujoco_sim/tree/main) | [ur5_simulation](https://www.youtube.com/watch?v=eO5wMzw9LeQ) |      |
+
+| 显卡直通                                                     |                                                              |      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [Easy-GPU-PV](https://github.com/jamesstringerparsec/Easy-GPU-PV) | [ExHyperV](https://github.com/Justsenger/ExHyperV/blob/main/README_cn.md) |      |
+| [PXVDI](https://docs.pxvdi.lierfang.com/pxvdi-for-hyper-v/README.html) | [hyper-v显卡直通ubuntu](https://blog.vogelcs.com/2024/05/21/Windows下直通GPU设备到Hyper-V的Ubuntu虚拟机/) |      |
+|                                                              |                                                              |      |
+
