@@ -1,42 +1,26 @@
 # 今日待办
 
-- [ ] isaac asserts上传115
-- [ ] 备份vscode插件
-- [ ] codex openai
 - [ ] ppt增加遥操作图示
 - [ ] 夹爪角度归一化
-- [ ] 笔记本安装windows，hyper-v，wsl，isaac
+- [x] isaac asserts上传115
+- [x] 笔记本安装windows，hyper-v，wsl，isaac
 - [x] cursor
 - [x] wsl安装 egpu效果不好
+- [x] 备份vscode插件
+- [x] codex openai
 
 ---
 
 # 导航
 
-| 常用         | 链接                                                         |                                    |
-| ------------ | ------------------------------------------------------------ | ---------------------------------- |
-| Hugging Face | [Hugging Face](https://huggingface.co/)                      |                                    |
-| 魔搭社区     | [魔搭社区](https://modelscope.cn/my/overview)                |                                    |
-| CodeWithGPU  | [CodeWithGPU](https://www.codewithgpu.com/image)             |                                    |
-| AutoDL       | [AutoDL](https://www.autodl.com/machine/list)                |                                    |
-| gpufree      | [gpufree](https://www.gpufree.cn/images)                     |                                    |
-| 腾讯云市场   | [腾讯云市场](https://market.cloud.tencent.com/)              |                                    |
-| OpenRouter   | [OpenRouter](https://openrouter.ai/)                         |                                    |
-| Zread        | [Zread](https://zread.ai/)                                   |                                    |
-| lmarena      | [lmarena](https://lmarena.ai/leaderboard)                    |                                    |
-| 论文翻译     | [论文翻译](https://www.julyedu.com/#exercise-container)      |                                    |
-| Aizex        | [Aizex](https://aizex.net/plusPool)                          |                                    |
-| 凌云API      | [凌云API](https://feiai.chat/)                               |                                    |
-| 尤里卡       | [尤里卡](https://dcntch0yoc4t.feishu.cn/next/messenger)      |                                    |
-| Nvidia-GEAR  | [Nvidia-GEAR](https://research.nvidia.com/labs/gear/)        | Generalist Embodied Agent Research |
-| 智源         | [FlagOpen-智源](https://github.com/FlagOpen)                 |                                    |
-| 波士顿动力   | [Boston Dynamics](https://bostondynamics.com/)               |                                    |
-| Figure       | [Figure](https://www.figure.ai/)                             |                                    |
-| diffusion    | [Probabilistic Diffusion Model_bilibili](https://www.bilibili.com/video/BV1b541197HX/?vd_source=d91bffd2a7a6acff9ff536f2f1332429)   [Diffusion Models-Lilian Weng](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) |                                    |
-| lerobot      | [LeRobot框架设计与架构深度剖析：从入门到精通](https://www.guyuehome.com/detail?id=1938233439339741186) |                                    |
-|              | [GR00T N1.5 for SO-101 Arm](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning) |                                    |
-|              | [论文CVPR2025](https://www.bilibili.com/video/BV1xHXsYnE68?spm_id_from=333.788.player.player_end_recommend_autoplay&vd_source=d91bffd2a7a6acff9ff536f2f1332429) |                                    |
-|              |                                                              |                                    |
+| 常用                                                    | 链接                                           |                                                 |
+| ------------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| [魔搭社区](https://modelscope.cn/my/overview)           | [Hugging Face](https://huggingface.co/)        | [腾讯云市场](https://market.cloud.tencent.com/) |
+| [CodeWithGPU](https://www.codewithgpu.com/image)        | [AutoDL](https://www.autodl.com/machine/list)  | [gpufree](https://www.gpufree.cn/images)        |
+| [OpenRouter](https://openrouter.ai/)                    | [Aizex](https://aizex.net/plusPool)            | [凌云API](https://feiai.chat/)                  |
+| [论文翻译](https://www.julyedu.com/#exercise-container) | [lmarena](https://lmarena.ai/leaderboard)      | [Zread  ](https://zread.ai/)                    |
+| [尤里卡](https://dcntch0yoc4t.feishu.cn/next/messenger) | [FlagOpen-智源](https://github.com/FlagOpen)   |                                                 |
+| [Nvidia-GEAR](https://research.nvidia.com/labs/gear/)   | [Boston Dynamics](https://bostondynamics.com/) | [Figure](https://www.figure.ai/)                |
 
 | vr                                                      |                                                              |                                                              |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -151,6 +135,12 @@
 | 手柄-ros-isaac-lerobot-数据采集 | [ur5_simulation](https://www.youtube.com/watch?v=eO5wMzw9LeQ) |      |
 |                                 | [act-aloha](https://blog.csdn.net/v_JULY_v/article/details/135566948) |      |
 |                                 | [Manipulator-Mujoco](https://github.com/ian-chuang/Manipulator-Mujoco) |      |
+| diffusion                       | [Probabilistic Diffusion Model_bilibili](https://www.bilibili.com/video/BV1b541197HX/?vd_source=d91bffd2a7a6acff9ff536f2f1332429)   [Diffusion Models-Lilian Weng](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) |      |
+| lerobot                         | [LeRobot框架设计与架构深度剖析：从入门到精通](https://www.guyuehome.com/detail?id=1938233439339741186) |      |
+|                                 | [GR00T N1.5 for SO-101 Arm](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning) |      |
+|                                 | [论文CVPR2025](https://www.bilibili.com/video/BV1xHXsYnE68?spm_id_from=333.788.player.player_end_recommend_autoplay&vd_source=d91bffd2a7a6acff9ff536f2f1332429) |      |
+|                                 |                                                              |      |
+|                                 |                                                              |      |
 
 
 
