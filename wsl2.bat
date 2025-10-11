@@ -11,6 +11,13 @@ df -h / # 查看磁盘大小
 sudo apt update  && sudo apt upgrade 
 sudo apt install zsh htop nvtop -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# ssh github
+ssh-keygen -t ed25519 -C "k511153362@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+
+
 
 # 桌面环境
 vi /etc/wsl.conf # 确认 systemd=true
