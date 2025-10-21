@@ -20,7 +20,8 @@ sudo sh cuda_13.0.2_580.95.05_linux.run
 echo 'export PATH=/usr/local/cuda-13.0/bin:$PATH' >> ~/.zshrc        # CUDA 12.4 命令路径
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-13.0/lib64:$LD_LIBRARY_PATH' >> ~/.zshrc  # CUDA 运行库路径
 echo 'export LIBRARY_PATH=/usr/local/cuda-13.0/lib64:$LIBRARY_PATH' >> ~/.zshrc        # CUDA 编译库路径
-nvcc --verision
+. ./.zshrc
+nvcc -V
 
 # miniconda
 wget --no-proxy https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-latest-Linux-x86_64.sh
