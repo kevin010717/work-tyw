@@ -17,9 +17,9 @@ sudo sh cuda_12.8.0_570.86.10_linux.run
 wget https://developer.download.nvidia.com/compute/cuda/13.0.2/local_installers/cuda_13.0.2_580.95.05_linux.run
 sudo sh cuda_13.0.2_580.95.05_linux.run
 
-echo 'export PATH=/usr/local/cuda-12.4/bin:$PATH' >> ~/.zshrc        # CUDA 12.4 命令路径
-echo 'export LD_LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LD_LIBRARY_PATH' >> ~/.zshrc  # CUDA 运行库路径
-echo 'export LIBRARY_PATH=/usr/local/cuda-12.4/lib64:$LIBRARY_PATH' >> ~/.zshrc        # CUDA 编译库路径
+echo 'export PATH=/usr/local/cuda-13.0/bin:$PATH' >> ~/.zshrc        # CUDA 12.4 命令路径
+echo 'export LD_LIBRARY_PATH=/usr/local/cuda-13.0/lib64:$LD_LIBRARY_PATH' >> ~/.zshrc  # CUDA 运行库路径
+echo 'export LIBRARY_PATH=/usr/local/cuda-13.0/lib64:$LIBRARY_PATH' >> ~/.zshrc        # CUDA 编译库路径
 nvcc --verision
 
 # miniconda
