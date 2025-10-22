@@ -1,7 +1,8 @@
 # 今日待办
 
 - [ ] ppt增加遥操作图示
-- [ ] 夹爪角度归一化
+- [ ] 夹爪，相机安装，采集数据
+- [x] 夹爪角度归一化
 - [x] isaac asserts上传115
 - [x] 笔记本安装windows，hyper-v，wsl，isaac
 - [x] cursor
