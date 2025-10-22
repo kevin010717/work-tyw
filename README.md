@@ -22,12 +22,34 @@
 | [尤里卡](https://dcntch0yoc4t.feishu.cn/next/messenger) | [FlagOpen-智源](https://github.com/FlagOpen)   |                                                 |
 | [Nvidia-GEAR](https://research.nvidia.com/labs/gear/)   | [Boston Dynamics](https://bostondynamics.com/) | [Figure](https://www.figure.ai/)                |
 
+| teleoperate                                                  |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [isaac-CloudXR Teleoperation](https://isaac-sim.github.io/IsaacLab/main/source/how-to/cloudxr_teleoperation.html?utm_source=chatgpt.com) | [cloudxr](https://developer.nvidia.cn/cloudxr-sdk?utm_source=chatgpt.com) |                                                              |
+| [OpenTeleVision](https://github.com/OpenTeleVision/TeleVision) | [OpenTeleVision/AMO](https://github.com/OpenTeleVision/AMO)  | [dex-retargeting](https://github.com/dexsuite/dex-retargeting) |
+| [openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) | [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide?hl=zh-cn) | [dexmv-sim](https://github.com/yzqin/dexmv-sim)              |
+| [TWIST](https://github.com/YanjieZe/TWIST)                   |                                                              |                                                              |
+
+| sim                                             |                                                    |                                                              |
+| ----------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ |
+| [webots](https://github.com/cyberbotics/webots) | [tacto](https://github.com/facebookresearch/tacto) | **[InternUtopia](https://github.com/InternRobotics/InternUtopia)** |
+|                                                 |                                                    |                                                              |
+
+
+
+| fun                                                          |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [PCL](https://github.com/PointCloudLibrary/pcl?tab=readme-ov-file) | [pcl-learning](https://github.com/HuangCongQing/pcl-learning) | [Open3D](https://github.com/isl-org/Open3D)                  |
+| [openmoji](https://github.com/hfg-gmuend/openmoji)           | [YouDub-webui](https://github.com/liuzhao1225/YouDub-webui)  | [niri](https://github.com/YaLTeR/niri)                       |
+| [OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD)  | [OpenEMMA](https://github.com/taco-group/OpenEMMA/blob/main/README_zh-CN.md) | [wan 2.2](https://github.com/Wan-Video/Wan2.2?tab=readme-ov-file) |
+
+
+
 | vr                                                      |                                                              |                                                              |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [genie_sim](https://github.com/AgibotTech/genie_sim)    | [collab-sim](https://github.com/NVlabs/collab-sim?utm_source=chatgpt.com) |                                                              |
 | [Open-Teach](https://github.com/aadhithya14/Open-Teach) | [vr for isaac](https://www.youtube.com/watch?v=UnNun7GWFVs)  | [openxr](https://www.khronos.org/?_gl=1*1y4vrm3*_ga*MTU5NzkxMDk5LjE3NTg2NDczMzQ.*_ga_9Y8ET35QNG*czE3NTg2NDczMzQkbzEkZzEkdDE3NTg2NDczNjckajI3JGwwJGgw) |
 | **openrobot**                                           |                                                              |                                                              |
-| [openarm](https://github.com/enactic/openarm)           | [HOPEJr](https://github.com/TheRobotStudio/HOPEJr?tab=readme-ov-file) |                                                              |
+| [openarm](https://github.com/enactic/openarm)           | [HOPEJr](https://github.com/TheRobotStudio/HOPEJr?tab=readme-ov-file) | [OpenExo](https://github.com/naubiomech/OpenExo)             |
 
 | isaac                                                        |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -37,11 +59,9 @@
 | [groot](https://developer.nvidia.com/isaac/gr00t)            | [Isaac](https://developer.nvidia.com/isaac)                  | [gain tuner](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/robot_setup/ext_isaacsim_robot_setup_gain_tuner.html) |
 | [isaac-lula](https://docs.isaacsim.omniverse.nvidia.com/5.0.0/manipulators/motion_generation_overview.html) |                                                              |                                                              |
 
-| lerobot                                                      |      |      |
-| ------------------------------------------------------------ | ---- | ---- |
-| [any4lerobot](https://github.com/Tavish9/any4lerobot)        |      |      |
-| [lerobot机械臂中文资料](https://docs.qq.com/sheet/DQnFNc0pVdUV2bEpZ?tab=BB08J2) |      |      |
-|                                                              |      |      |
+| lerobot                                               |                                                              |      |
+| ----------------------------------------------------- | ------------------------------------------------------------ | ---- |
+| [any4lerobot](https://github.com/Tavish9/any4lerobot) | [lerobot机械臂中文资料](https://docs.qq.com/sheet/DQnFNc0pVdUV2bEpZ?tab=BB08J2) |      |
 
 | 数据增强                                                     |                                                              |                                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -58,58 +78,31 @@
 
 
 
-| VLA                                              | 链接                                                         | 描述                                                         |
-| ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 框架-lerobot                                     | [lerobot](https://github.com/huggingface/lerobot)   [any4lerobot](https://github.com/Tavish9/any4lerobot)   [unitree_IL_lerobot](https://github.com/unitreerobotics/unitree_IL_lerobot)   [古月居](https://www.guyuehome.com/detail?id=1938233439339741186)  [lerobot_alohamini](https://github.com/liyitenga/lerobot_alohamini) |                                                              |
-| 框架-leisaac                                     | [leisaac](https://github.com/LightwheelAI/leisaac/tree/main) |                                                              |
-| 框架-isaacsim                                    | [nvidia](https://github.com/Lifelong-Robot-Learning/LIBERO)   [unitree_sim_isaaclab](https://github.com/unitreerobotics/unitree_sim_isaaclab/tree/main)   [unitree_rl_lab](https://github.com/unitreerobotics/unitree_rl_lab)   [isaac相关](https://www.bilibili.com/video/BV18J3FzfEL6/?spm_id_from=333.337.search-card.all.click&vd_source=d91bffd2a7a6acff9ff536f2f1332429)   [Isaacsim机器狗ros](https://www.bilibili.com/video/BV1HsSiYNEvZ/?spm_id_from=333.337.search-card.all.click&vd_source=d91bffd2a7a6acff9ff536f2f1332429)   [isaacsim四足](https://www.bilibili.com/video/BV1WQJ8zZEaV?spm_id_from=333.788.videopod.sections&vd_source=d91bffd2a7a6acff9ff536f2f1332429) |                                                              |
-| 框架-mimicgen                                    | [mimicgen](https://github.com/NVlabs/mimicgen)               |                                                              |
-| 框架-robotmimic                                  | [robomimic](https://github.com/ARISE-Initiative/robomimic)   | robomimic: A Modular Framework for Robot Learning from Demonstration |
-| 框架-robosuite                                   | [robosuite](https://github.com/ARISE-Initiative/robosuite)   | A Modular Simulation Framework and Benchmark for Robot Learning |
-| 框架-SimplerEnv                                  | [SimplerEnv](https://github.com/simpler-env/SimplerEnv?tab=readme-ov-file) |                                                              |
-| 框架-RLBench_ACT                                 | [RLBench_ACT](https://github.com/Boxjod/RLBench_ACT?tab=readme-ov-file) | RLBench_ACT: Running ALoha ACT and Diffusion Policy in the RLBench Framework |
-| 框架-OpenUSD                                     | [OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD)  |                                                              |
-| 框架-ASAP                                        | [ASAP](https://github.com/LeCAR-Lab/ASAP)                    | 协调模拟和现实世界的物理学习敏捷的人形全身技能               |
-| 框架-Gymnasium                                   | [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)  |                                                              |
-| 框架-robomimic                                   | [robomimic](https://robomimic.github.io/)                    |                                                              |
-| 框架-maniskill                                   | [maniskill](https://www.maniskill.ai/)                       |                                                              |
-| 框架-BEHAVIOR                                    | [BEHAVIOR](https://behavior.stanford.edu/index.html)         | simulation benchmark grounded in real human needs            |
-| 框架-OpenWBT                                     | [OpenWBT](https://github.com/GalaxyGeneralRobotics/OpenWBT/blob/main/README_zh.md) |                                                              |
-| 框架-gello                                       | [gello](https://github.com/wuphilipp/gello_software)         | 遥操作                                                       |
-|                                                  |                                                              |                                                              |
-| [NavFoM](https://pku-epic.github.io/NavFoM-Web/) | [RDT2](https://github.com/thu-ml/RDT2)                       | [DexGraspVLA](https://github.com/Psi-Robot/DexGraspVLA)      |
-| 模型-openpi                                      | [openpi](https://github.com/Physical-Intelligence/openpi)    |                                                              |
-| 模型-ReKep                                       | [ReKep](https://github.com/huangwl18/ReKep)                  |                                                              |
-| 模型-openvla                                     | [openvla](https://github.com/openvla/openvla)                |                                                              |
-| 模型-smolvla                                     | [lerobot训练](https://huggingface.co/blog/smolvla)           |                                                              |
-| 模型-GR00T N1.5                                  | [GitHub](https://github.com/NVIDIA/Isaac-GR00T)  [lerobot训练](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning)   [古月居](https://www.guyuehome.com/detail?id=1943901579843272705) |                                                              |
-| 模型-worldvla-G0                                 | [OpenGalaxea/G0](https://github.com/OpenGalaxea/G0/tree/main) |                                                              |
-| 模型-Mobile ALOHA                                | [Mobile ALOHA](https://mobile-aloha.github.io/cn.html)       |                                                              |
-| 模型-RoboAgent                                   | [RoboAgent](https://robopen.github.io/)                      |                                                              |
-| 模型-molmoact                                    | [molmoact](https://allenai.org/blog/molmoact)                |                                                              |
-| 模型-GraspVLA                                    | [GraspVLA](https://github.com/PKU-EPIC/GraspVLA)             |                                                              |
-| 模型-Uni-NaVid                                   | [Uni-NaVid](https://pku-epic.github.io/Uni-NaVid/)           |                                                              |
-| 模型-hil-serl                                    | [hil-serl](https://github.com/rail-berkeley/hil-serl)        |                                                              |
-|                                                  |                                                              |                                                              |
-| 数据集-open_x_embodiment                         | [open_x_embodiment](https://github.com/google-deepmind/open_x_embodiment) |                                                              |
-| 数据集-libero                                    | [GitHub](https://github.com/Lifelong-Robot-Learning/LIBERO)  |                                                              |
-| 数据集-ArtVIP                                    | [ArtVIP](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP/tree/main) |                                                              |
-| 数据集-work-r-labs                               | [work-r-labs](https://github.com/work-r-labs/robots)         |                                                              |
-| 数据集-DROID                                     | [DROID](https://droid-dataset.github.io/)                    |                                                              |
-| 数据集-Objaverse                                 | [Objaverse](https://objaverse.allenai.org/)                  |                                                              |
-|                                                  |                                                              |                                                              |
-| 公司-宇树科技                                    | [宇树科技](https://www.unitree.com/cn)                       |                                                              |
-| 公司-上海智元                                    | [上海智元](https://www.zhiyuan-robot.com/)                   |                                                              |
-| 公司-DeepMind                                    | [DeepMind](https://deepmind.google/discover/blog/)           |                                                              |
-| 公司-OpenLoong                                   | [OpenLoong](https://www.openloong.org.cn/cn)                 |                                                              |
-|                                                  |                                                              |                                                              |
-| 资料-尤里卡                                      | [飞书](https://dcntch0yoc4t.feishu.cn/next/messenger)        |                                                              |
-| 资料-敢敢のwings                                 | [敢敢のwings](https://www.guyuehome.com/userDetail?id=1824721785539334146) |                                                              |
-| 资料-v_JULY_v                                    | [博主-v_JULY_v](https://blog.csdn.net/v_JULY_v?type=blog)    |                                                              |
-| 资料-机器人与具身智能                            | [专栏-机器人与具身智能](https://blog.csdn.net/2506_90492529/category_12978237.html) |                                                              |
-| 资料-七月在线                                    | [七月在线](https://www.julyedu.com/)                         |                                                              |
-| 资料-深蓝学院                                    | [深蓝学院](https://www.shenlanxueyuan.com/)                  |                                                              |
-| 资料-Embodied-AI-Guide                           | [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) |                                                              |
+| VLA                                                          |                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [lerobot](https://github.com/huggingface/lerobot)   [any4lerobot](https://github.com/Tavish9/any4lerobot) | [leisaac](https://github.com/LightwheelAI/leisaac/tree/main) | [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)  |
+| [IsaacSim](https://github.com/isaac-sim/IsaacSim/tree/main)  | [mimicgen](https://github.com/NVlabs/mimicgen)               | [robomimic](https://github.com/ARISE-Initiative/robomimic)   |
+| [robosuite](https://github.com/ARISE-Initiative/robosuite)   | [SimplerEnv](https://github.com/simpler-env/SimplerEnv?tab=readme-ov-file) | [RLBench_ACT](https://github.com/Boxjod/RLBench_ACT?tab=readme-ov-file) |
+| [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)  | [ASAP](https://github.com/LeCAR-Lab/ASAP)                    | [maniskill](https://www.maniskill.ai/)                       |
+| [BEHAVIOR](https://behavior.stanford.edu/index.html)         |                                                              |                                                              |
+| [OpenWBT](https://github.com/GalaxyGeneralRobotics/OpenWBT/blob/main/README_zh.md) | [gello](https://github.com/wuphilipp/gello_software)         |                                                              |
+| **模型**                                                     |                                                              |                                                              |
+| [NavFoM](https://pku-epic.github.io/NavFoM-Web/)             | [RDT2](https://github.com/thu-ml/RDT2)                       | [DexGraspVLA](https://github.com/Psi-Robot/DexGraspVLA)      |
+| [openpi](https://github.com/Physical-Intelligence/openpi)    | [openvla](https://github.com/openvla/openvla)                | [smolvla](https://huggingface.co/blog/smolvla)               |
+| [GR00T N1.5](https://github.com/NVIDIA/Isaac-GR00T)  [lerobot训练](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning)   [古月居](https://www.guyuehome.com/detail?id=1943901579843272705) | [ReKep](https://github.com/huangwl18/ReKep)                  | [hil-serl](https://github.com/rail-berkeley/hil-serl)        |
+| [GraspVLA](https://github.com/PKU-EPIC/GraspVLA)             | [Mobile ALOHA](https://mobile-aloha.github.io/cn.html)       | [OpenGalaxea/G0](https://github.com/OpenGalaxea/G0/tree/main) |
+| [Uni-NaVid](https://pku-epic.github.io/Uni-NaVid/)           | [molmoact](https://allenai.org/blog/molmoact)                | [RoboAgent](https://robopen.github.io/)                      |
+| [FastUMI](https://github.com/zxzm-zak/FastUMI_Data?tab=readme-ov-file) |                                                              |                                                              |
+| **数据集**                                                   |                                                              |                                                              |
+| [open_x_embodiment](https://github.com/google-deepmind/open_x_embodiment) | [libero](https://github.com/Lifelong-Robot-Learning/LIBERO)  | [ArtVIP](https://huggingface.co/datasets/x-humanoid-robomind/ArtVIP/tree/main) |
+| [work-r-labs](https://github.com/work-r-labs/robots)         | [DROID](https://droid-dataset.github.io/)                    | [Objaverse](https://objaverse.allenai.org/)                  |
+| **企业**                                                     |                                                              |                                                              |
+| [宇树科技](https://www.unitree.com/cn)                       | [上海智元](https://www.zhiyuan-robot.com/)                   | [DeepMind](https://deepmind.google/discover/blog/)           |
+| [OpenLoong](https://www.openloong.org.cn/cn)                 |                                                              |                                                              |
+| **资料**                                                     |                                                              |                                                              |
+| [尤里卡-飞书](https://dcntch0yoc4t.feishu.cn/next/messenger) | [敢敢のwings](https://www.guyuehome.com/userDetail?id=1824721785539334146) | [博主-v_JULY_v](https://blog.csdn.net/v_JULY_v?type=blog)    |
+| [专栏-机器人与具身智能](https://blog.csdn.net/2506_90492529/category_12978237.html) | [七月在线](https://www.julyedu.com/)                         | [深蓝学院](https://www.shenlanxueyuan.com/)                  |
+| [Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide) | [黄浴-知乎](https://www.zhihu.com/people/yuhuang2019/posts)  |                                                              |
 
 
 
