@@ -68,7 +68,7 @@ sudo apt install ros-humble-desktop
 source /opt/ros/humble/setup.zsh 
 
 # ros2 bridge
-sudo apt-get install -y ros-humble-ros-testing ros-humble-moveit ros-humble-moveit-common ros-humble-control-toolbox ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ros-base ros-humble-rmw-fastrtps-cpp 
+sudo apt install -y ros-humble-vision-msgs ros-humble-ros-testing ros-humble-moveit ros-humble-moveit-common ros-humble-control-toolbox ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-ros-base ros-humble-rmw-fastrtps-cpp 
 # ros-humble-rmw-cyclonedds-cpp
 conda activate env_isaacsim450
 conda install -c conda-forge 'libstdcxx-ng>=13.2.0' 'libgcc-ng>=13.2.0'
