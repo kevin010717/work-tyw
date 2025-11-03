@@ -9,10 +9,10 @@
 - [x] wsl安装 egpu效果不好
 - [x] 备份vscode插件
 - [x] codex openai
-week 1 
-week 2 
-week 3
-week 4
+- [ ] week 1
+- [ ] week 2
+- [ ] week 3
+- [ ] week 4
 
 ---
 
