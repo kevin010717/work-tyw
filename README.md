@@ -9,11 +9,11 @@
 - [x] wsl安装 egpu效果不好
 - [x] 备份vscode插件
 - [x] codex openai
-- [ ] week 1
+- [ ] week 1 周六加班
 - [ ] week 2
 - [ ] week 3
 - [ ] week 4
-
+2025.11.09相亲见面
 ---
 
 # 导航
