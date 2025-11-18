@@ -87,9 +87,8 @@ pip install opencv-python
 git clone https://github.com/huggingface/lerobot.git
 cd lerobot
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-pip install -e . 
-pip install -e ".[aloha, pusht]"
-pip install lerobot
+pip install -e ".[aloha, pusht, async, pi, smolvla]"
+pip install "lerobot[groot]"
 # 数据集可视化1
 python -m lerobot.scripts.visualize_dataset \
     --repo-id lerobot/pusht \
