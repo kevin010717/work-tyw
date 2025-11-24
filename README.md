@@ -11,7 +11,7 @@
 - [x] codex openai
 - [ ] week 1 周六加班
 - [ ] week 2 周六周日双休
-- [ ] week 3
+- [ ] week 3 周六加班
 - [ ] week 4
 - [ ] 2025.11.09相亲见面
 ---
